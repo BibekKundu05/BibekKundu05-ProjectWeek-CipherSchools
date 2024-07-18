@@ -77,7 +77,7 @@ We welcome contributions! 👐 If you have suggestions for improvements or new f
 This project was inspired by the need for interactive educational tools in computer science. Special thanks to the creators of the binary-tree-visualizer library for making tree visualization easy and fun!
 
 ## 📜 License 📜
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT [License](https://github.com/BibekKundu05/ProjectWeek-CipherSchools/blob/master/LICENSE) . See the LICENSE file for details.
 
 ### 🌟 Happy Coding! 🌟
 
