@@ -55,12 +55,13 @@ background-color: #8896AB;
 border-radius: 10px;
 padding:10px;
 /* box-shadow: 4px 2px 10px white,-4px -2px 10px white; */
-  margin: 10px;
-  font-family:'Courier New', Courier, monospace;
-  color:    rgb(2, 10, 56);
+margin: 10px;
+font-family:'Courier New', Courier, monospace;
+color:    rgb(2, 10, 56);
 
-  font-size: 45px;
-   text-shadow: 5px 2px 4px white; 
+font-size: 45px;
+text-shadow: 5px 2px 4px white; 
+display: inline-block;
  
 }
 
