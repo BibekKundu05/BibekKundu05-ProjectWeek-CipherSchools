@@ -37,7 +37,9 @@ or just double-click the file in your file explorer.
 
 ## 📸 Screenshots 📸
 Here's what the visualizer looks like in action:
+
 ![Screenshot 2024-07-18 213707](https://github.com/user-attachments/assets/0379e8ec-2d27-4bf1-bc6e-7f4d81f1f9df)
+
 
 
 ## 🤖 How It Works 🤖
