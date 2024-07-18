@@ -1,76 +1,84 @@
-#Binary Search Trees (BST) 🌳💻
-Binary Search Trees (BSTs) are a fundamental data structure in computer science, commonly used for efficient searching and sorting of data. Let's dive into what they are, how they work, and why they are so useful! 🧑‍💻📚
-You can see this website using this link -  
-What is a Binary Search Tree? 🤔
-A Binary Search Tree is a type of binary tree where each node has at most two children, referred to as the left child and the right child. The BST has a specific property:
-Left Subtree: All nodes in the left subtree have values less than the value of the parent node.
-Right Subtree: All nodes in the right subtree have values greater than the value of the parent node.
-This property makes BSTs incredibly efficient for searching, insertion, and deletion operations.
-Key Operations 🚀
-1. Insertion 🪄
-To insert a value in a BST:
-Start at the root.
-Compare the value to be inserted with the current node.
-If the value is less, move to the left child; if greater, move to the right child.
-Repeat until you find an empty spot where the new value can be inserted.
-Example:
-Inserting the value 15 into a BST:
-markdown
-Copy code
-       20
-       /  \
-      10   30
-     /  \
-    5    15
+# 🌳✨ Binary Search Tree Visualizer ✨🌳
 
-Compare 15 with 20 (go left).
-Compare 15 with 10 (go right).
-Insert 15 as the right child of 10.
-2. Searching 🔍
-To search for a value in a BST:
-Start at the root.
-Compare the value with the current node.
-If it matches, you've found the value!
-If it's less, move to the left child; if greater, move to the right child.
-Repeat until you find the value or reach a leaf node.
-Example:
-Searching for the value 30 in the above BST:
-Compare 30 with 20 (go right).
-Compare 30 with 30 (match found!).
-3. Deletion 🗑️
-Deleting a node in a BST has three cases:
-Leaf Node: Simply remove the node.
-One Child: Remove the node and link its parent to its child.
-Two Children: Find the in-order successor (the smallest value in the right subtree), replace the node's value with the in-order successor's value, and delete the successor.
-Example:
-Deleting the value 10 from the BST:
-markdown
-Copy code
-       20
-       /  \
-      15   30
-     /    
-    5    
 
-Replace 10 with its in-order successor 15.
-Remove the node 15 from its original position.
-Why Use Binary Search Trees? 🌟
-BSTs provide efficient searching, insertion, and deletion operations with an average time complexity of O(log n). This efficiency makes them ideal for applications like databases and file systems where quick data retrieval is crucial.
-Visual Representation 🎨
-Here's a simple visual representation of a BST:
-markdown
-Copy code
-       50
-       /  \
-     30   70
-    / \   / \
-  20 40 60 80
+Welcome to the Binary Search Tree Visualizer! 🎉 This interactive tool lets you visualize and manipulate a Binary Search Tree (BST) right in your browser. Whether you're a student learning about data structures, a teacher explaining tree operations, or just a coding enthusiast, this visualizer is for you! 🚀
 
-Root: 50
-Left Subtree: Values less than 50 (20, 30, 40)
-Right Subtree: Values greater than 50 (60, 70, 80)
-Conclusion 📝
-Binary Search Trees are a powerful tool in computer science, providing efficient ways to manage and organise data. By understanding their structure and operations, you can leverage BSTs to improve the performance of your applications. Happy coding! 🚀
+## 🌟 Features 🌟
+🔧 Insert Node: Easily add new nodes to the BST.
 
-Feel free to ask any questions or share your thoughts on BSTs. Let's keep learning together! 😊📘
+🗑️ Remove Node: Delete nodes and see the tree adjust.
 
+🔍 Search: Find nodes with specific values.
+
+🔽 Find Min/Max: Quickly identify the smallest and largest values in the tree.
+
+🔄 Traversals: Perform and visualize Preorder, Inorder, and Postorder traversals.
+
+♻️ Reset Tree: Clear the current tree and start fresh.
+
+## 🛠️ Getting Started 🛠️
+Follow these steps to get the visualizer running on your local machine:
+
+### 1. Clone the repository:
+
+git clone https://github.com/BibekKundu05/ProjectWeek-CipherSchools.git
+
+### 2. Navigate to the project directory:
+
+cd BST-Visualizer
+
+### 3. Open index.html in your favorite web browser:
+
+open index.html
+
+or just double-click the file in your file explorer.
+
+#### That's it! You're ready to start visualizing BSTs! 🌐
+
+## 📸 Screenshots 📸
+Here's what the visualizer looks like in action:
+
+
+## 🤖 How It Works 🤖
+This project is built with HTML, CSS, and JavaScript. It uses the binary-tree-visualizer library to handle the drawing of the tree. The main components include:
+
+HTML: Structure of the visualizer interface.
+CSS: Styling for a sleek and dark theme.
+JavaScript: Logic for BST operations and visualization updates.
+
+### 🔧 Insert Node
+Click the Insert Node button to add a new node. Enter the value in the input field, and watch as the node appears in the correct position in the tree.
+
+### 🗑️ Remove Node
+Select the node you want to remove by entering its value, then click the Remove Node button. The tree will automatically reconfigure itself to maintain the BST properties.
+
+### 🔍 Search Node
+Enter the value you're searching for and hit the Search button. The visualizer will highlight the node if it exists in the tree.
+
+### 🔽 Find Min/Max
+Click Find Min to see the smallest value in the tree, and Find Max to see the largest. The results are displayed in the output area.
+
+### 🔄 Traversals
+Explore different tree traversals:
+
+1. Preorder Traversal: Nodes are visited in the order of root, left subtree, right subtree.
+
+2. Inorder Traversal: Nodes are visited in the order of left subtree, root, right subtree.
+3. 
+Postorder Traversal: Nodes are visited in the order of left subtree, right subtree, root.
+
+### ♻️ Reset Tree
+Click the Reset Tree button to clear the current tree and start over.
+
+## 📝 Contributing 📝
+We welcome contributions! 👐 If you have suggestions for improvements or new features, feel free to fork the repository and submit a pull request. You can also open issues for any bugs or enhancements.
+
+## 💖 Credits 💖
+This project was inspired by the need for interactive educational tools in computer science. Special thanks to the creators of the binary-tree-visualizer library for making tree visualization easy and fun!
+
+## 📜 License 📜
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+### 🌟 Happy Coding! 🌟
+
+If you enjoy this project, please give it a star! ⭐
