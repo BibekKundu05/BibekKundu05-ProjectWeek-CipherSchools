@@ -10,7 +10,7 @@ body{
   /* background-image: url('back4.jpg'); */
 }
 .all{
-  background-image: url('img\back4.jpg'); 
+  background-image: url('/back4.86aa32c3.jpg'); 
   background-size: cover;
   width:90%;
   display: flex;
@@ -28,7 +28,7 @@ body{
 }
 
 canvas{
-   background-image: url('img\canva1.jpg');  
+   background-image: url('/canva1.0665f6b9.jpg');  
 background-size: cover;
 margin-top: 40px;
 margin-bottom: 20px;
@@ -186,3 +186,5 @@ footer{
 .footer-content:hover{
   transform: scale(1.5);
 }
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
